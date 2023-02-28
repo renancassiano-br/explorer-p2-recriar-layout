@@ -1,0 +1,12 @@
+body{
+  background: #2C2B3D;
+  color: #c2c2c2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav, 
+h1, 
+footer {
+  font-family: 'JetBrains Mono', monospace;
+  color: #fff;
+}
