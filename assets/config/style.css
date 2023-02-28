@@ -4,9 +4,26 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-nav, 
+nav a, 
 h1, 
 footer {
   font-family: 'JetBrains Mono', monospace;
   color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 64px;
 }
