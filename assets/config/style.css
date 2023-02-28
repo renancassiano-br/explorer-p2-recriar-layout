@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body{
   background: #2C2B3D;
   color: #c2c2c2;
@@ -6,7 +10,7 @@ body{
 
 .page {
   width: 1090px;
-  margin: 71px auto;
+  margin: 0 auto;
 }
 
 nav a, 
@@ -17,6 +21,8 @@ footer {
 }
 
 nav {
+  margin: 71px auto 100px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,4 +37,34 @@ ul {
   display: flex;
   align-items: center;
   gap: 64px;
+}
+
+main {
+  display: flex;
+  gap: 83px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  line-height: 40px;
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+span{
+  color: #00BFA6;
+}
+
+p {
+  line-height: 28px;
+  text-align: center;
+}
+/* Um p que tem um p antes */
+p + p {
+  margin-top: 28px;
 }
