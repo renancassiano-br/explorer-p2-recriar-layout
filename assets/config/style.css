@@ -4,6 +4,11 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+.page {
+  width: 1090px;
+  margin: 71px auto;
+}
+
 nav a, 
 h1, 
 footer {
