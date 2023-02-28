@@ -32,6 +32,11 @@ a {
   text-decoration: none;
 }
 
+a:hover, #logo:hover {
+  background: #00BFA6;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -67,4 +72,21 @@ p {
 /* Um p que tem um p antes */
 p + p {
   margin-top: 28px;
+}
+
+#line {
+  width: 568px;
+  margin: 157px auto 27px;
+  border: 1px solid #00BFA6;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#lock {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
 }
